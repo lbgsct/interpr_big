@@ -1,0 +1,12 @@
+var_1 -> 1F4;
+var_2 -> var_1 mult 4;
+Var3 -> var_2 / 5 sum var_1 % 2;
+(Var3)print;
+
+Var4 -> 1;[
+[er[#]]#BREAKPOINT
+](Var4)print;
+
+var7 -> 223456789098 / (73456765 / 5 / (234567890)not)  ;
+var7 -> 7 sum (2)not;#BREAKPOINT
+(var7)print;
